@@ -102,35 +102,61 @@ form.sign-in-form {
   font-weight: 500;
 }
 
+
 .social-text {
   padding: 0.7rem 0;
   font-size: 1rem;
 }
 
+
 .social-media {
   display: flex;
-  justify-content: center;
+  gap: 10px; 
 }
 
 .social-icon {
-  height: 46px;
-  width: 46px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0.45rem;
-  color: #333;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  border: 1px solid #333;
+  background-color: #333;
+  color: white; 
   text-decoration: none;
-  font-size: 1.1rem;
-  transition: 0.3s;
+  transition: all 0.3s ease; 
+  font-size: 18px;
 }
 
-.social-icon:hover {
-  color: #4481eb;
-  border-color: #4481eb;
+
+.social-icon.face:hover {
+  background-color: #3b5998;
+  color: white;
 }
+
+
+.social-icon.twitter:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+
+.social-icon.geogle:hover {
+  background-color: #db4437;
+  color: white;
+}
+
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
 
 .btn {
   width: 150px;
